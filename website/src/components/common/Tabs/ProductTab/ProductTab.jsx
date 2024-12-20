@@ -99,7 +99,7 @@ export default function ProductTab({ tabs }) {
                         ))}
                     </Swiper>
                 ) : (
-                    <p>No products exist nào trong Category này</p>
+                    <p>Không sản phẩm nào trong danh muc này</p>
                 )}
             </div>
         </StyledProductTab>

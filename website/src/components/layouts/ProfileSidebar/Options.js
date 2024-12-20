@@ -10,7 +10,7 @@ export const profileSidebarOpt = [
     {
         id: 1,
         icon: <PersonIcon />,
-        text: "Thông tin Account",
+        text: "Thông tin tài khoản ",
         url: "/profile",
     },
     {

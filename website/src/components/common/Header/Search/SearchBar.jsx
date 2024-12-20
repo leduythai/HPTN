@@ -226,19 +226,19 @@ export default function SearchBar() {
                             onChange={handleChange}
                             onFocus={handleFocus}
                             value={searchValue}
-                            placeholder="Find product ..."
+                            placeholder="TÌm kiếm sản phẩm ..."
                         />
 
                         <SearchBtn
                             type="submit"
                             disabled={!searchValue ? true : false}
                         >
-                            Find
+                            Tìm kiếm 
                         </SearchBtn>
 
                         {showSuggestions && (
                             <SearchSuggestion ref={suggestionRef}>
-                                <h4>Find product</h4>
+                                <h4>TÌm kiếm sản phẩm</h4>
                                 <ul className="SearchSuggestion">
                                     {(searchValue.trim() === ""
                                         ? defaultSuggestions

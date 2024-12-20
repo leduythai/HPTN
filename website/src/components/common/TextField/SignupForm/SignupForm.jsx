@@ -62,7 +62,7 @@ export default function SignupForm({ onRegister }) {
 
     useEffect(() => {
         if (error) {
-            registerFormik.setErrors({ email: "Tên Account đã tồn tại" });
+            registerFormik.setErrors({ email: "Tên tài khoản  đã tồn tại" });
         }
     }, [error, registerFormik.setErrors]);
 
@@ -131,7 +131,7 @@ export default function SignupForm({ onRegister }) {
                 }
             />
 
-            <LoginButton text={"Create Account"} />
+            <LoginButton text={"Tao tài khoản "} />
         </form>
     );
 }

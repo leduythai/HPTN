@@ -73,7 +73,7 @@ const StyledCartContainer = styled("div")(() => ({
 
 export default function CartContainer({ data }) {
     if (!data || data?.length === 0) {
-        return <EmptyData text={"No products exist nào trong giỏ hàng"} />;
+        return <EmptyData text={"Không sản phẩm nào trong giỏ hàng"} />;
     }
 
     const [checkedIds, setCheckedIds] = useState([]);

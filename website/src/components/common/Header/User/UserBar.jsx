@@ -96,7 +96,7 @@ export default function UserBar() {
                     <Link href={"/"}>
                         <PrimaryBtn
                             icon={<HomeRoundedIcon />}
-                            text="Homepage"
+                            text="Trang chủ"
                             isActive={activeButton === "home"}
                             onClick={handleHomeClick}
                         />
@@ -104,7 +104,7 @@ export default function UserBar() {
                     <Link href={"/"}>
                         <PrimaryBtn
                             icon={<CameraIcon />}
-                            text="News"
+                            text="Tin tức"
                             isActive={false}
                         />
                     </Link>
@@ -119,7 +119,7 @@ export default function UserBar() {
                     >
                         <PrimaryBtn
                             icon={<SentimentSatisfiedAltIcon />}
-                            text="Account"
+                            text="Tài khoản"
                             isActive={activeButton === "account"}
                         />
                         {isLoggedIn && (
@@ -164,7 +164,7 @@ export default function UserBar() {
                             >
                                 <Link href={"/profile"}>
                                     <p onClick={handleAccountClick}>
-                                        Thông tin Account
+                                        Thông tin tai khoan 
                                     </p>
                                 </Link>
                                 <Link
@@ -206,9 +206,9 @@ export default function UserBar() {
                 &nbsp;
                 <Link
                     style={{ textDecoration: "underline" }}
-                    href={"to:0966494923"}
+                    href={"to:0332395053"}
                 >
-                    0966494923
+                    0332395053
                 </Link>
             </UserBarAddress>
         </UserBarContainer>
